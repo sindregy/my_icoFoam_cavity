@@ -42,8 +42,8 @@ solvers
     //ADDED
     T 
     {
-       solver            BICCG;
-        preconditioner   DILU;
+       solver            GAMG;
+       smoother        symGaussSeidel;
         tolerance        1e-7;
         relTol           0;
     };
