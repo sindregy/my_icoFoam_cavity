@@ -30,7 +30,7 @@ divSchemes
 {
     default         none;
     div(phi,U)      Gauss linear;
-    div(phi,T)      Gauss upwind;
+    div(phi,T)      Gauss linear;
 }
 
 laplacianSchemes
